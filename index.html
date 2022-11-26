@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Animal Sound Identifier</h2>
+      <p>Note:Play different animal sounds like bark, meow, moo and roar.</p>
+    </div>
+      <center>
+      <div class="main_div">
+        <br>
+        <button class="btn btn-warning" onclick="startClassification()">Start</button>
+        <h3 id="result_label">I can hear:</h3>
+        <h4 id="result_confidence" >Accuracy:</h4>
+        <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-nX6NXYjPNeAiXz5FeZpLm5Td8bOXLomHFbZQp4G&s" id="tiger" width="300" height="300">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfp3vyl5ZzfdTeO40ex-2vH24WPGzEAJr0XIHeix8&s" id="dog" width="300" height="300">
+        <img src="https://www.shutterstock.com/image-vector/illustration-cute-cow-260nw-347317901.jpg" id="cow" width="300" height="300">
+        <img src="https://img.freepik.com/premium-vector/cartoon-funny-cat-isolated_29190-4874.jpg?w=2000" id="cat" width="300" height="300">
+      </div>
+      </center>
+      <div class="copy_right_footer">Developed by Devi</div>
+<script src="main.js"></script>
+  </body>
+</html>
